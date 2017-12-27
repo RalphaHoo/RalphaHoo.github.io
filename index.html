@@ -3,42 +3,79 @@
     <head>
         <title>大型犬&小猪</title>
         <link rel="stylesheet" href="css/indexcss.css" type="text/css">
+        <script type="text/javascript" src="js/indexjs.js"></script>
         <meta charset="UTF-8">
     </head>
-    <body>
+    <body onload="startTime()">
         <div class="wrapper">
-            <img id="backimg1" src="http://pic1.win4000.com/wallpaper/2017-11-13/5a096a117f36f.jpg">
+            <img id="backimg1" src="pics/mainback1.jpg">
             <div>
-                <h1 id="head1">我，你，世界</h1>
+                <h1 id="head1">南風知我意</h1>
             </div>
             <div>
-                <h2 id="head2">我们在这相遇</h2>
+                <h2 id="head2">來日方長</h2>
             </div>
-        </div>
-        <div id="text1">
-            <p>As we all know.</p>
-            <p>喜欢，就要大声说出来。</p>
-            <p>出来！</p>
         </div>
         <div id="part1">
+            <div class="text1">
+                <div id="text1-1">
+                    <p>一見傾心</p>
+                </div>
+                <div id="text1-2">
+                    <p>这就是我们的爱情故事</p>
+                    <p>同一个愿望、相爱、我爱你、至死不渝</p>
+                </div>
+            </div>
+            <div class="timezone">
+                <img id="lovepic1" src="pics/love1.png">
+                <div id="timezone-img">
+                    <div id="line0">
+                        <div id="line1-1">
+                            <p class="text2-1">2016.11.07</p>
+                            <p class="text2-1">我们在一起了</p>
+                        </div>
+                        <div id="line1-2">
+                            <p class="text2-1">2017.04.29</p>
+                            <p class="text2-1">武汉之行</p>
+                        </div>
+                        <div id="line1-3">
+                            <p class="text2-1">2017.11.03</p>
+                            <p class="text2-1">太原之行</p>
+                        </div>
+                        <div id="line1-4">
+                            <p class="text2-1">
+                                <font id="dateAuto" color="gray">
+                                    <span id="nowDateTimeSpan"></span>
+                                </font>
+                            </p>
+                            <p class="text2-1">我们的故事继续</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <p id="p">距离2013/01/01年还剩000天0000时0000分0000秒</p>
+        </div>
+        <div id="part2">
+            <p class="fenge">♥</p>
             <div class="content">
                 <img class="topimgs" id="toppic1" src="pics/toppic1.jpg">
             </div>
-            <div id="text2">
-                <p>有人说人像本书，看久了会厌</p>
-                <p>然而就算我把《于广泽》这本书翻烂了</p>
-                <p>里面的内容可以倒背如流</p>
-                <p>我还是愿意去读</p>
-                <p>因为他会续写</p>
-                <p>会修改其中我不喜欢的内容</p>
-                <p>会吸引我的注意</p>
-                <p>会说</p>
+            <div id="text3">
+                <p>有人說人像本書，看久了會厭</p>
+                <p>然而就算我把《於廣澤》這本書翻爛了</p>
+                <p>裡面的內容可以倒背如流</p>
+                <p>我還是願意去讀</p>
+                <p>因為他會續寫</p>
+                <p>會修改其中我不喜歡的內容</p>
+                <p>會吸引我的注意</p>
+                <p>會說</p>
                 <p>看啊，又是新的一天了</p>
             </div>
-            <hr>
         </div>
-        <div id="part2" style="width:100%;">
-            <div style="float:left; width:280px; margin-left: 280px; margin-top:10px;">
+        <!--
+        <div id="part3" style="width:100%;">
+            <div style="float:left; width:280px; margin-left: 280px; margin-top:10px;"
                 <div style="height:40px; font-size:14px; color:gray; text-align:center;">
                     啾
                 </div>
@@ -46,7 +83,12 @@
                     <img style="width:300px; height:300px;" src="pics/pic2-1.jpg">
                 </div>
             </div>
-            <div style="float:left; width:280px; margin-left: 400px; margin-top:10px;">
+            <div id="text1" style="float:left; width:400px; text-align:center; margin-top:120px;">
+                <p>As we all know.</p>
+                <p>喜欢，就要大声说出来。</p>
+                <p>出来！</p>
+            </div>
+            <div style="float:left; width:280px; margin-left: 0px; margin-top:10px;">
                 <div style="height:40px; font-size:14px; color:gray; text-align:center;">
                     咪
                 </div>
@@ -54,6 +96,8 @@
                     <img style="width:300px; height:300px;" src="pics/pic2-2.jpg">
                 </div>
             </div>
+        -->
         </div>
+            
     </body>
 </html>
