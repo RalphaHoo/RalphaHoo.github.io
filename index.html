@@ -5,6 +5,28 @@
         <link rel="stylesheet" href="css/indexcss.css" type="text/css">
         <script type="text/javascript" src="js/indexjs.js"></script>
         <meta charset="UTF-8">
+        <script type="text/javascript" language="javascript">
+            function time(timespan){
+             var date1=new Date(timespan);
+             var totalSecs=(new Date()-date1)/1000;
+             var days=Math.floor(totalSecs/3600/24);
+             var hours=Math.floor((totalSecs-days*24*3600)/3600);
+             var mins=Math.floor((totalSecs-days*24*3600-hours*3600)/60);
+             var secs=Math.floor((totalSecs-days*24*3600-hours*3600-mins*60));
+             /*
+             if((secs=="1")||(secs=="2")||(secs=="3")||(secs=="4")||secs=="5"||secs=="6"||secs=="7"||secs=="8"||secs=="9"||(secs=="0")
+                ||(mins=="1")||(mins=="2")||(mins=="3")||(mins=="4")||mins=="5"||mins=="6"||mins=="7"||mins=="8"||mins=="9"||(mins=="0")
+                ||(hours=="1")||(hours=="2")||(hours=="3")||(hours=="4")||hours=="5"||hours=="6"||hours=="7"||hours=="8"||hours=="9"||(hours=="0")){
+                 secs="0"+secs;
+                 mins="0"+mins;
+                 hours="0"+hours;
+             }
+             */
+             document.getElementById("time").innerText=+days+" DAYS "+hours+" HOURS "+mins+" MINS "+secs+" SECS ";
+            }
+            var clock;
+            setInterval("time('2016/11/07')", 500);
+            </script>
     </head>
     <body onload="startTime()">
         <div class="wrapper">
@@ -57,13 +79,13 @@
                 </div>
             </div>
             <div>
-                <img id="timeCountImg" src="pics/timeCount1.jpg" alt="">
-                <div id="timeCount">
+                <div id="timeCount" style="background: url(pics/timeCount1.jpg);">
                     <div id="text3-1">
-                        <p>Save the Date</p>
+                        <span>Fall in Love</span>
+                        <div id="time">
+                        </div> 
                     </div>
-                    <div id="text3-2">
-                    </div> 
+                    
                 </div>
             </div>
             

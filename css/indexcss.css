@@ -82,6 +82,10 @@ body{
     content: "";
     margin-left: -5px;
 }
+#dateAuto::after{
+    content: "";
+    margin-left: -10px;
+}
 #text3-1{
     font-size: 100px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -90,22 +94,24 @@ body{
     text-align: center;
     width: 100%;
     color: white;
-    margin-top: -600px;
-    z-index: 1;
+    margin-top: 110px;
+    z-index: 2;
 }
 #text3-1::after{
     content: "";
     margin-left: -30px;
 }
-#text3-2{
-    font-size: 30px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+#time{
+    font-size: 40px;
+    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif;
     letter-spacing: 5px;
     text-align: center;
-    color: gray;
-    margin-top: 50px;
+    color: white;
+    margin-top: 60px;
+    z-index: 1;
 }
-#text3-2::after{
+#time::after{
     content: "";
     margin-left: -5px;
 }
@@ -201,11 +207,20 @@ body{
     line-height: 0px; 
     color: #fff;
 }
+#timeCount{
+    height: 500px;
+    width: 100%;
+    background-size: 100% 100%; 
+    background: no-repeat;
+    -moz-background-size: 100% 100%;  
+    -webkit-background-size: 100% 100%; 
+}
 #timeCountImg{
     width: auto;
     height: auto;
     max-width: 100%;
     z-index: 0;
+    position: relative;
 }
 
 
