@@ -1,0 +1,42 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#container{
+	position: relative;
+}
+.box{
+	padding: 5px;
+	float: left;
+}
+.box_img{
+	padding: 5px;
+	border: 1px solid #cccccc;
+	box-shadow: 0 0 5px #ccc;
+	border-radius: 5px;
+}
+.box_img img{
+	width: 200px;
+	height: auto;
+}
+.box_img p{
+	font-size: 12px;
+	text-align: center;
+	color: #808080;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.box_img a{
+	margin-left: 30px;
+	font-size: 13px;
+	text-decoration: none;
+	color: #808080;
+}
+.box_img a:hover{
+	color: #FF4500;
+}
+.box_img img:hover{
+	
+	
+}

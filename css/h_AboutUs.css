@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+    background-color: rgb(245, 245, 245);
+    font-family: "微软雅黑";
+    font-weight: bold;
+}
+a{
+    text-decoration: aliceblue;
+    color: rgb(78, 79, 91);
+}
+h1,p{
+    color: rgb(78, 79, 91);
+}
+.hr1{
+    height: 1px;
+    width: 1180px;
+    margin-left: -20px;
+    border: none;
+    border-top: 2px double rgb(226, 205, 135);
+}
+.hr2{
+    height: 2px;
+    width: 1180px;
+    margin-left: -20px;
+    border: none;
+    border-top: 8px double rgb(226, 205, 135);
+}
+.mainBlock{
+    height: 400px;
+    width: 1200px;
+    margin-top: 105px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.buttomBlock{
+    height: 500px;
+    width: 1200px;
+    background-color: rgb(255, 255, 255);
+}
+.whiteBlock{
+    width: 1170px;
+    margin-left: auto;
+}
+.topTitle{
+    margin-left: 40px;
+    font-size: 10pt;
+}
+h1{
+    font-size: 15pt;
+    padding-top: 28px;
+}
+.introduce{
+    line-height: 36px;
+}
+.telUs{
+    margin-top: 45px;
+    line-height: 23px;
+}
+
+
